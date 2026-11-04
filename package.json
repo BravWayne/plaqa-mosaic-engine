@@ -1,0 +1,13 @@
+{
+  "name": "plaqa-mosaic-engine",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "convert": "tsx cli/convert.ts",
+    "run-mosaic": "tsx cli/run_mosaic_converter.ts",
+    "run-keep-calm": "tsx cli/run_keep_calm.ts",
+    "test": "tsx tests/verify_pipeline.ts && tsx tests/test_pixel_art_converter.ts && tsx tests/test_graphic_mode.ts"
+  },
+  "dependencies": { "sharp": "^0.33.5" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.0.0" }
+}

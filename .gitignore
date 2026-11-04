@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated outputs & build artifacts
+test-output/
+out.png
+output-*.png
+
+# Local scratch & experimental scripts
+scratch/
+
+# Competitor comparison reference
+samples/competitor-assala-32x32.jpg
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
